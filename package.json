@@ -7,14 +7,18 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
+    "test-store": "jest -i stores/",
     "lint": "eslint ."
   },
   "dependencies": {
+    "mobx": "^5.15.6",
+    "mobx-react": "^6.3.0",
     "react": "16.13.1",
     "react-native": "0.63.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
     "babel-jest": "^25.1.0",

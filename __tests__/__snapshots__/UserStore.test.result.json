@@ -1,0 +1,97 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 8,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 8,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1599927562096,
+    "success": true,
+    "testResults": [{
+        "assertionResults": [{
+            "ancestorTitles": ["UserStore.js set Username"],
+            "failureMessages": [],
+            "fullName": "UserStore.js set Username falsy input 0",
+            "location": null,
+            "status": "passed",
+            "title": "falsy input 0"
+        }, {
+            "ancestorTitles": ["UserStore.js set Username"],
+            "failureMessages": [],
+            "fullName": "UserStore.js set Username falsy input undefined",
+            "location": null,
+            "status": "passed",
+            "title": "falsy input undefined"
+        }, {
+            "ancestorTitles": ["UserStore.js set Username"],
+            "failureMessages": [],
+            "fullName": "UserStore.js set Username falsy input null",
+            "location": null,
+            "status": "passed",
+            "title": "falsy input null"
+        }, {
+            "ancestorTitles": ["UserStore.js set Username"],
+            "failureMessages": [],
+            "fullName": "UserStore.js set Username falsy input NaN",
+            "location": null,
+            "status": "passed",
+            "title": "falsy input NaN"
+        }, {
+            "ancestorTitles": ["UserStore.js set Username"],
+            "failureMessages": [],
+            "fullName": "UserStore.js set Username truthy input 0",
+            "location": null,
+            "status": "passed",
+            "title": "truthy input 0"
+        }, {
+            "ancestorTitles": ["UserStore.js set Username"],
+            "failureMessages": [],
+            "fullName": "UserStore.js set Username truthy input undefined",
+            "location": null,
+            "status": "passed",
+            "title": "truthy input undefined"
+        }, {
+            "ancestorTitles": ["UserStore.js set Username"],
+            "failureMessages": [],
+            "fullName": "UserStore.js set Username truthy input null",
+            "location": null,
+            "status": "passed",
+            "title": "truthy input null"
+        }, {
+            "ancestorTitles": ["UserStore.js set Username"],
+            "failureMessages": [],
+            "fullName": "UserStore.js set Username truthy input NaN",
+            "location": null,
+            "status": "passed",
+            "title": "truthy input NaN"
+        }],
+        "endTime": 1599927563342,
+        "message": "",
+        "name": "D:\\ReactNative\\Workspace\\NativeXiQuap\\__tests__\\stores\\UserStore.test.js",
+        "startTime": 1599927562174,
+        "status": "passed",
+        "summary": ""
+    }],
+    "wasInterrupted": false
+}

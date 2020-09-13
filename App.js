@@ -1,30 +1,27 @@
 import React, {Component} from 'react';
-import {
-  SafeAreaView,
-  TouchableOpacity,
-  Text,
-  NativeModules,
-} from 'react-native';
-const {ToastExample = null} = NativeModules;
+// mobx
+import {Provider} from 'mobx-react';
+// screens
+import Home from './src/screens/home';
+// stores
+import userStore from './src/stores/UserStore';
 
-export default class App extends Component {
+const stores = {
+  userStore,
+};
+
+class App extends Component {
   constructor(props) {
     super(props);
-    this.onPressButton = this.onPressButton.bind(this);
   }
 
-  onPressButton = () => {
-    ToastExample.show('Awesome', ToastExample.SHORT);
-  };
-
   render() {
-    console.log('render');
     return (
-      <SafeAreaView style={{flex: 1}}>
-        <TouchableOpacity style={{flex: 1}} onPress={this.onPressButton}>
-          <Text>Press Me</Text>
-        </TouchableOpacity>
-      </SafeAreaView>
+      <Provider {...stores}>
+        <Home />
+      </Provider>
     );
   }
 }
+
+export default App;
