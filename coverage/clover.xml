@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1600006915120" clover="3.2.0">
+  <project timestamp="1600006915120" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="7" coveredelements="6" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+    <file name="view.js" path="D:\ReactNative\Workspace\NativeXiQuap\src\screens\login\view.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>
