@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogIn/> with no props should match [snapshot]all-devices 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "opacity": 1,
+      }
+    }
+    testID="button-logIn"
+  >
+    <Text
+      testID="text-logIn"
+    >
+      log in
+    </Text>
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    placeholder="Type your username"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    testID="input-username"
+    underlineColorAndroid="transparent"
+    value={null}
+  />
+  <TextInput
+    allowFontScaling={true}
+    placeholder="Type your password"
+    rejectResponderTermination={true}
+    secureTextEntry={true}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    testID="input-password"
+    underlineColorAndroid="transparent"
+    value={null}
+  />
+</RCTSafeAreaView>
+`;

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 // mobx
 import {Provider} from 'mobx-react';
 // screens
-import Home from './src/screens/home';
+import LogIn from './src/screens/login';
 // stores
 import userStore from './src/stores/UserStore';
 
@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <Provider {...stores}>
-        <Home />
+        <LogIn />
       </Provider>
     );
   }
